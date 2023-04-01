@@ -16,3 +16,11 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+
+## Java dependency for firebase on mac
+
+```
+export JAVA_HOME=`/usr/libexec/java_home -v 11`
+```
+
